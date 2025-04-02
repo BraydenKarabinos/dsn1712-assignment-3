@@ -90,7 +90,6 @@ nav a{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
-    text-align: left;
 }
 
 .grid-1 article {
@@ -99,7 +98,11 @@ nav a{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+}
+
+.grid-1 article p{
     text-align: left;
+    margin-bottom: 2em;
 }
 
 .grid-1 article h3{
